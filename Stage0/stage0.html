@@ -1,0 +1,219 @@
+<!DOCTYPE html >      <!--type of document so browser will render correctly -->
+<html>            <!-- this opens our document. Checkout closing tag at end -->
+        <!--My Name is Claudio A -->
+        <!--I'm taking IPND -->
+<!-- This is how you write an HTML comment. -->
+<!-- Comments help other People read and understand code. Other programming
+languages might have different ways of writing comments. But the most important
+thing to remember is that comments are ignored by the computer (not displayed
+on screen). Use them to leave notes for yourself (and anyone else who might
+read your code later). -->
+
+<head>  <!--This element contains information not displayed on the page -->
+  <!--The <title> element sets the name that appears on the browser tab. Thus
+  Claudio's Notes should be the name displayed on the browser. -->
+  <title>Claudio's Notes</title>
+</head>
+
+<body>    <!--Any content inside this element is what you see on the screen -->
+
+<!-- The  heading tags (<h1> up to <h6>) are used to indicate content that is
+important. Lower numbered headings indicate content that is more important. -->
+  <div>
+    <h1>Intro to Programming in HTML and CSS</h1>
+  </div>
+
+  <div>
+    <h2>Lesson 1: The Basics of the Web and HTML</h2>
+    <p>
+      In this tutorial, we will learn some important concepts:
+      <ol type="1">
+        <li>
+          How the Web works and how Users, Computers, Servers, HTTP and the
+          Internet all fit together
+        </li>
+        <li>
+          How to use HTML tags to create HTML documents that a browser can display
+          as a web page
+        </li>
+      </ol>
+    </p>
+  </div>
+
+  <div>
+    <h3> How the Web Works</h3>
+    <p>The web is basically a bunch of computers that communicate with each
+    other. For example, when a person goes to a web page like www.google.com
+    and request an information, their computer sends an <em>HTTP Request</em>
+    to a <em>Server</em>. HTTP stands for <em>HyperText Transfer Protocol</em>
+    which is the main protocol of the web. Server is the name of computers
+    that host HTML documents. Therefore, the server finds the appropriate HTML
+    document and sends it back to the user's computer where a <em>web browser
+    </em> like Internet Explorer, Safari, FireFox or Chrome interprets the
+    page and displays it on the user's screen.
+    <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/e-48329854/m-48480496">This video</a>
+   does a good job of explaining.</P>
+  </div>
+
+  <div>
+    <h3>HTML Basics</h3>
+    <p>HTML stands for <em>HyperText Markup Language</em>. It is made up of <em>
+      text content</em> which is "what you see" and <em>markup</em> which is
+      "how it looks". HTML documents are the heart of the web and form the
+      majority of the content. They also make references to other documents,
+      images, videos, and links to other pages on the web.
+      <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-48724340">
+        This video</a> gives a good overview.
+    </p>
+  </div>
+  <div> <!--Tags and Elements start here-->
+    <h3>Tags and Elements</h3>
+    <p>HTML markup is made up of tags and content. Content is what goes inside
+      the openning and closing tags. Examples of tags are &ltb&gt, &ltem&gt, &lt
+      a&gt, and
+      &ltimg&gt. When we put any content inside an openning and closing tag, that
+       whole structure is what we call an HTML <b>element</b>. For example
+       <em>&ltb&gtcontent&lt/b&gt</em> and <em>&ltem&gtcontent&lt/em&gt
+       </em> are both HTML elements. <br /> We use HTML tags and elements to
+      tell a web browser how to display content on a web page.
+     <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/e-48011976/m-48703273">
+      This video</a> and
+      <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/e-48296546/m-48693677">
+      this video</a> show how HTML tags and elements are used. <br /> <br />
+      Note: Always remember to <b>open</b> and <b>close</b> HTML tags
+      appropriately else the content inside of them and subsequent contents
+      won't display like you wanted them to. That, explains why computers are
+      stupid.
+      <p>
+        <h5>Why Computers are Stupid</h5>
+        The truth is computers are stupid because they interpret instructions
+        exactly the way you enter them. They are very sensitive to typos and as a
+        result, small mistakes by a programmer can cause huge problems in a program.
+        <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-3484369492">
+          This article</a> explains it better.
+      </p>
+  </div> <!--End of Tags and Elements -->
+  <div>
+    <h3>HTML Attributes</h3>
+    Some HTML tags accept additional values called <b>attributes</b>. Attributes
+    provide additional information to the browser. For example,
+    <ol>
+      <li>
+        <p>
+          The anchor tag &lta&gt takes an attribute called <em>href</em> that
+          defines a URL to link to. The tag structure below creates a hyper
+          link to the <em>href</em> attribute "url" and names it link.<br />
+          <b>&lta href="url"&gtlink&lt/a&gt</b>
+        </p>
+      </li>
+      <li>
+        <p>
+          The &ltimg&gt tag structure <b>&ltimg src="url" alt="text"&gt</b>
+          displays the image hosted at the <em>src</em> attribute "url". The url
+          can also be a path to a local image file on your computer. If the
+          image link is broken and can not be displayed, the <em>alt</em>
+          attribute "text" will be displayed on the screen. Remember "text" is
+          what you choose to display on screen.
+        </p>
+      </li>
+    </ol>
+    FYI - Notice the difference between the &lta&gt and &ltimg&gt closing tag.
+    You should see that the &ltimg&gt tag doesn't have a closing tag with a
+    backlash and the tag name. That is because the &ltimg&gt tag has no content
+    inside of it whereas the &lta&gt tag had content which was the word
+    <b>link</b>. Any element without the closing tag is called a <b>void</b>
+    element.
+  </div>
+
+ <div>      <!--Inline vs Block Elements start here-->
+   <h3>Inline vs Block Elements</h3>
+   <p> All HTML elements can be categorized into two categories:
+    <ol type="a">   <!--Ordered list of Inline vs Block Elements -->
+      <li>  <!--sub-title Inline Elements  -->
+        <strong>Inline Elements</strong>
+        <p>
+          Inline elements end a line of text and wrap new text to the next line.
+          They can appear within sentences and do not have to appear on a new line
+          of their own. For example &ltb&gt, &lti&gt, &ltu&gt, &ltem&gt,
+          &ltstrong&gt, &ltsup&gt, &ltsub&gt, &ltbig&gt, &ltsmall&gt, &ltli&gt,
+          &ltins&gt, &ltdel&gt, &ltcode&gt, &ltcite&gt, &ltdfn&gt, &ltkbd&gt,
+          and &ltvar&gt are all inline elements.
+        </p>
+      </li>
+      <li>  <!-- sub-title Block Elements -->
+        <strong>Block Elements</strong>
+        <p>
+         Block elements make an "invisible box" around the content inside of
+         them. They appear on the screen as if they have line breaks before and
+         after them. For example the &ltp&gt, &lth1&gt, &lth2&gt, &lth3&gt,
+         &lth4&gt, &lth5&gt, &lth6&gt, &ltul&gt, &ltol&gt, &ltdl&gt, &ltpre&gt,
+         &lthr /&gt, &ltblockquote&gt, and &ltaddress&gt are all block elements.
+        </p>
+      </li>
+    </ol>
+      To learn more about inline vs block elements,
+      <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-48723438">
+      this video</a> explains the difference.<br/>
+      <br />
+      Note: For a browser to be able to display the less than (<) and greater
+      than (>) symbols before and after an HTML tag, you have to use
+      <a href="http://freeformatter.com/html-escape.html">
+        html-escape</a> characters.
+   </p>
+ </div> <!-- End of Inline vs Block Elements -->
+ <div>
+   <h3>Grouping HTML Elements</h3>
+   There are two very important tags that are used to group various other HTML
+   tags. They are the <b>&ltspan&gt</b> and <b>&ltdiv&gt</b> tag. The &ltspan&gt
+   tag is use for grouping and applying style to inline elements whereas the
+   &ltdiv&gt tag is use for grouping and applying style to block elements. Check
+   out <a href="http://www.tutorialspoint.com/html/html_blocks.htm">
+     this tutorial</a> for examples on how to use the &ltspan&gt and &ltdiv&gt tag
+ </div>
+ <div>
+    <h2>Summary</h2>
+    <p>So far, we have learned about the Web which is compose largely of HTML
+    documents. We defined what HTML stands for <em>HyperText Markup Language
+    </em> which is the language the browse uses to interpret web pages.
+    In one of the video links, we saw the components of the web includes clients
+    (computer and browser), the Internet, and Servers. The clients and servers
+    interact via something called <em>HyperText Transfer Protocol</em> (HTTP).
+    <p>We also learned about HTML tags which are used to tell the web browser
+    how to display content in a web page. Most HTML tags consist of an opening
+    and a closing tag. But some tags like the &ltimg&gt tag do not have a
+    closing tag. Those are called <b>void</b> tags. We also learned that tags
+    and their contents form a whole structure called an HTML <b>element</b>,
+    and HTML has both inline and block elements. Finally, to group inline and
+    block elements, we use the <b>&ltspan&gt</b> and <b>&ltdiv&gt</b> tags
+    respectively.</p>
+    </p>
+    <p>To learn more about HTML, please check out
+    <a href="http://www.w3schools.com/html/default.asp">
+      w3schools.com</a> or
+    <a href="http://www.tutorialspoint.com/html/index.htm">
+        tutorialspoint.com</a></p>
+
+ </div>
+ <div>
+    <a href="file:///Users/claudioa/Documents/Udacity/IPND/stage1/index.html">
+      Lesson 2</a>
+</div>
+  <!--<p>Website by Claudio. A</P> -->
+</body>
+</html>
+<!--  Code Review anchor tag
+Great use of an anchor tag. tip: Anchor tags are very versatile. They can point
+to local files, remote websites, places on the current page, ftp file, and even
+JavaScript. Because the tag can do so many things it is very sensitive to
+syntax. <a href="something.txt">something</> will look for a local file.
+<a href="http://something.com">something</> will look for a website.
+<a href="#something">something</> will look for an element with the name
+"something" on the same page.-->
+
+<!--Code Review - tag escape
+Nice note about tags! tip: If you want tags to show as readable text instead of
+being treated as code, you have to escape the < and > symbols like this:
+< becomes &lt; and > becomes &gt; This will tell the browser to draw them
+without parsing them. This page may help:
+http://www.freeformatter.com/html-escape.html
+-->
