@@ -27,8 +27,9 @@ of selectors.
   - An id selector starts with a # sign followed by the HTML ID attribute value.
 
 ## Some Important Websites I use
-- https://developer.mozilla.org/en-US/docs/Web/CSS
 - http://www.w3schools.com/
+- https://developer.mozilla.org/en-US/docs/Web/CSS
+
 
 <h5>HTML and CSS Validators </h5>
  <h6>HTML:</h6>
