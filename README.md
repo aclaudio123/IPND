@@ -16,7 +16,7 @@ HTML tags, and also using escape characters. There are two files in this folder
 ## Stage1
 Stage 1 is a continuation of stage0.html but this time we'll see the magic of
 CSS (Cascading Style Sheets) used for beautifying HTML files.
-<h3> Cascading Style Sheets </h3>
+<h5> Cascading Style Sheets </h5>
   - In css you first write a selector - this defines what elements on the page a
    style will apply to. You can select an HTML tag and that rule will apply to
    all of that tag in the page
@@ -30,23 +30,23 @@ of selectors.
 - https://developer.mozilla.org/en-US/docs/Web/CSS
 - http://www.w3schools.com/
 
-<h4>HTML and CSS Validators </h4>
- <h5>HTML:</h5>
+<h5>HTML and CSS Validators </h5>
+ <h6>HTML:</h6>
  - http://validator.w3.org/#validate_by_input
  - https://validator.w3.org/nu/#textarea
 
- <h5>CSS:</h5>
+ <h6>CSS:</h6>
  - http://jigsaw.w3.org/css-validator/#validate_by_input
 
-<h5>Codepen:</h5>
+<h6>Codepen:</h6>
  use http://codepen.io to write HTML CSS and JS online
 
-<h5>Flex box:</h5>
+<h6>Flex box:</h6>
 an efficient way to layout a line and distribute space in a box
 - A guide to flex box https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - Play a flex box game to learn more http://www.flexboxdefense.com
 
-
+## Thanks
 <p>
 Thanks for checking out my code. I hope it inspires you to start your web dev't
 journey. I use these notes to teach web development to beginner level students.
