@@ -30,18 +30,18 @@ of selectors.
 - https://developer.mozilla.org/en-US/docs/Web/CSS
 - http://www.w3schools.com/
 
-HTML and CSS Validators
- HTML:
+<h4>HTML and CSS Validators </h4>
+ <h5>HTML:</h5>
  - http://validator.w3.org/#validate_by_input
  - https://validator.w3.org/nu/#textarea
 
- CSS:
+ <h5>CSS:</h5>
  - http://jigsaw.w3.org/css-validator/#validate_by_input
 
-Codepen:
+<h5>Codepen:</h5>
  use http://codepen.io to write HTML CSS and JS online
 
-Flex box:
+<h5>Flex box:</h5>
 an efficient way to layout a line and distribute space in a box
 - A guide to flex box https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - Play a flex box game to learn more http://www.flexboxdefense.com
