@@ -29,7 +29,7 @@ of selectors.
 ## Some Important Websites I use
 - http://www.w3schools.com/
 - https://developer.mozilla.org/en-US/docs/Web/CSS
-
+- http://www.freeformatter.com/html-escape.html
 
 <h5>HTML and CSS Validators </h5>
  <h6>HTML:</h6>
