@@ -26,30 +26,31 @@ of selectors.
   class attribute value.
   - An id selector starts with a # sign followed by the HTML ID attribute value.
 
-<h2> Some Important Websites I use </h2>
-https://developer.mozilla.org/en-US/docs/Web/CSS
-http://www.w3schools.com/
+## Some Important Websites I use
+- https://developer.mozilla.org/en-US/docs/Web/CSS
+- http://www.w3schools.com/
 
 HTML and CSS Validators
  HTML:
- http://validator.w3.org/#validate_by_input
- https://validator.w3.org/nu/#textarea
+ - http://validator.w3.org/#validate_by_input
+ - https://validator.w3.org/nu/#textarea
 
  CSS:
- http://jigsaw.w3.org/css-validator/#validate_by_input
+ - http://jigsaw.w3.org/css-validator/#validate_by_input
 
 Codepen:
  use http://codepen.io to write HTML CSS and JS online
 
-Flex box
+Flex box:
 an efficient way to layout a line and distribute space in a box
 - A guide to flex box https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - Play a flex box game to learn more http://www.flexboxdefense.com
 
 
-
+<p>
 Thanks for checking out my code. I hope it inspires you to start your web dev't
 journey. I use these notes to teach web development to beginner level students.
 
 If you've questions or would like to contact me, checkout my LinkedIn profile
 www.linkedin.com/in/claudioasangong
+</p>
