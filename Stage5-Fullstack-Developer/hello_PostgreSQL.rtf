@@ -1,0 +1,97 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Verdana;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red35\green46\blue57;\red62\green62\blue62;\red21\green163\blue221;
+\red37\green37\blue37;\red234\green234\blue234;\red83\green85\blue2;\red11\green84\blue83;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl560\partightenfactor0
+
+\f0\b\fs32 \cf2 \expnd0\expndtw0\kerning0
+Hello Postgresql\
+\pard\pardeftab720\sl500\sa300\partightenfactor0
+
+\b0\fs30 \cf3 The 
+\b psql
+\b0  command-line tool is really powerful. There's a complete reference to it {\field{\*\fldinst{HYPERLINK "http://www.postgresql.org/docs/9.4/static/app-psql.html"}}{\fldrslt 
+\b \cf4 in the PostgreSQL documentation}}.\
+To use 
+\b psql
+\b0 , login to a machine (such as a VM) where PostgreSQL is installed checkout this doc {\field{\*\fldinst{HYPERLINK "https://udacity.atlassian.net/wiki/display/BENDH/Vagrant+VM+Installation"}}{\fldrslt https://udacity.atlassian.net/wiki/display/BENDH/Vagrant+VM+Installation}} for help with a Vagrant VM installation\
+
+\b To Create a Database\
+\pard\pardeftab720\li60\ri60\sl480\sa300\qj\partightenfactor0
+
+\f1\b0 \cf0 Open the command prompt and go to the directory where PostgreSQL is installed and execute the following command to create a database.\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f2\fs26 \cf5 \cb6 createdb \cf7 dbname\cf5 \
+\pard\pardeftab720\li60\ri60\sl480\sa300\qj\partightenfactor0
+
+\f1\fs30 \cf0 \cb1 or\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f2\fs26 \cf5 \cb6 createdb \cf7 -\cf5 h localhost \cf7 -\cf5 p \cf8 5432\cf5  \cf7 -\cf5 U postgres testdb\
+password \cf7 ******\cf5 \
+\pard\pardeftab720\sl480\partightenfactor0
+
+\f1\fs30 \cf0 \cb1 Above command will prompt you for password of the PostgreSQL admin user which is 
+\b postgres
+\b0  by default so provide password and proceed to create your new database.\
+
+\f0 \cf3 \
+
+\b To Connect to a Database\
+
+\b0 \
+\pard\pardeftab720\sl500\sa300\partightenfactor0
+\cf3 To connect 
+\b psql
+\b0  to a database running on the same machine (such as your VM), all you need to give it is the database name. For instance, the command 
+\b psql forum
+\b0  will connect to the 
+\b forum
+\b0  database.\
+From within 
+\b psql
+\b0 , you can run any SQL statement using the tables in the connected database. Make sure to end SQL statements with a semicolon, which is not always required from Python.\
+You can also use a number of special 
+\b psql
+\b0  commands to get information about the database and make configuration changes. The 
+\b \\d posts
+\b0  command shown in the video is one example \'97 this displays the columns of the 
+\b posts
+\b0  table.\
+Some other things you can do:\
+
+\b \\dt
+\b0  \'97 list all the tables in the database.\
+
+\b \\dt+
+\b0  \'97 list tables plus additional information (notably, how big each table is on disk).\
+
+\b \\H
+\b0  \'97 switch between printing tables in plain text vs. HTML.\
+\pard\pardeftab720\sl500\sa600\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl500\sa300\partightenfactor0
+\cf3 Here's a fun one to run in 
+\b psql
+\b0  while your forum web app is running:\
+
+\b select * from posts \\watch
+\b0 \
+(Note that 
+\b \\watch
+\b0  replaces the semicolon.) This will display the contents of the 
+\b posts 
+\b0 table and refresh it every two seconds, so you can see changes to the table as you use the app.\
+\pard\pardeftab720\sl500\partightenfactor0
+\cf3 In order to do this, you'll need two terminal sessions into your VM \'97 one running the forum app, and the other running 
+\b psql
+\b0 . You can connect to the VM from any number of terminal windows at once \'97 just open up another terminal, change to the 
+\b vagrant 
+\b0 directory, and type 
+\b vagrant ssh
+\b0  again.\
+}
