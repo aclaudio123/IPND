@@ -5,7 +5,18 @@
 --                  use in keeping track of players and matches in a
 --                  Swiss-system game tournament.
 --
+
+--
 -- Table definitions:
+--
+
+--
+-- Create and connect to database
+--
+DROP DATABASE IF EXISTS tournament;
+CREATE DATABASE tournament;
+\c tournament;
+
 --
 -- Create players table
 --
