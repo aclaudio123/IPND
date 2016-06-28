@@ -18,7 +18,7 @@ Using Git
 	2.	Clone the newly forked repository to your computer.
 	3.	Then from the terminal, cd to your desired directory and run:
 
-        $ git clone PASTE_PATH_TO_REPO_HERE forum
+		       $ git clone PASTE_PATH_TO_REPO_HERE forum
 
 This will give you a directory named forum
 
