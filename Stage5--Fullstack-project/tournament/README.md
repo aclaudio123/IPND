@@ -19,9 +19,10 @@ https://docs.google.com/document/d/16IgOm4XprTaKxAa8w02y028oBECOoB1EI1ReddADEeY/
 How to run
 ----------
 Before you begin ensure you have the following installed:
-	•	VirtualBox
-	•	Vagrant
-	•	Git
+
+	1.	VirtualBox
+	2.	Vagrant
+	3.	Git
 
 
 Using Git
