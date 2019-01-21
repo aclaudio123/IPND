@@ -3,7 +3,7 @@
 The files in this repository are notes and projects for the Udacity IPND Nanodegree
 All project code have been reviewed and accepted as meets specifications.
 Each file contains a well written Comments of what you will learn and the code for
-the each project. If you're looking to learn HTML or just want to check out my
+each project. If you're looking to learn HTML or just want to check out my
 code then feel free!   
 
 ## Stage0 - Basic HTML
