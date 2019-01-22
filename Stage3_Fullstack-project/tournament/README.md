@@ -60,3 +60,4 @@ Move to the correct directory
 Run tests
 ---------
       $ python tournament_test.py
+
