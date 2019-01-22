@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Claudio's Notes</title>
+  <link rel="stylesheet" href="claudio-style.css">
+  <link rel="prev" href="lesson2.html">
+</head>
+<body>
+  <div class="lesson">
+    <h2 class="lesson-title" id="lesson3">Lesson 3: Adding CSS Style to HTML Structure</h2>
+    <div class="concept" id="lesson3-1">
+      <h3 class="concept-title">CSS</h3>
+      <div class="concept-description line-height">
+        <p>
+          CSS stands for Cascading Style Sheets and it gives web developers a way
+          to control the style of related HTML elements. This is done by giving
+          similar HTML elements the same class name and then specifying the
+          style rule that should apply to that class.
+        </p>
+        <p>
+          Syntactically, in CSS you first write a selector which defines what
+          elements on the page a style rule will apply to then inside the selector
+          you specify the CSS property and value to be applied to that selector.
+          Click <a href="https://css-tricks.com/how-css-selectors-work/">
+          here</a> for more expanation of CSS selectors.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson3-2">
+      <h3 class="concept-title">Avoiding Repetition</h3>
+      <div class="concept-description line-height">
+        <p>
+          Avoiding repetition is very important in programming because it helps
+          you avoid making errors and also helps with consistency. The reason is
+          when programmers don't avoid repetition, they end up doing the same
+          thing over and over again which becomes time consuming.
+        </p>
+        <p>
+          In web deveopment, understanding CSS helps with this because CSS style
+          rules can be applied to similar HTML elements grouped together. For
+          example, making a change to an element without dilligently making the
+          same change everywhere that element is used might cause problems. But
+          using CSS, you would make that same change only in the CSS selector used
+          for grouping the HTML elements.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson3-3">
+      <h3 class="concept-title">Box Sizing</h3>
+      <div class="concept-description line-height">
+        <p>
+          All HTML elements are boxes, and each box has four components: Margin,
+          Border, Padding and Content. Because there are so many components to
+          each box, it can often be hard to get the size of a box just right.
+          However, there are two techniques you can use to help deal with sizing
+          issues.
+          </p>
+          <ol class="ol-lower-roman">
+            <li>
+              Set the size in terms of percentages rather than pixels so that the
+              box size changes depending on how big the screen is.
+            </li>
+            <li>
+              Set the box-sizing CSS attribute to <span class="highlight-text">
+              border-box</span> for every element.
+            </li>
+          </ol>
+        <p>
+          Note: Different browsers work slightly differently and sometimes this
+          causes different browsers to display the same code differently.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson3-4">
+      <h3 class="concept-title">Box Positioning</h3>
+      <div class="concept-description line-height">
+        <p>
+          By default, boxes take up the entire width of a page. So in order to
+          posistion boxes, you can use the flexible box attribute
+          <span class="highlight-text">flex</span> which provides an efficient way to layout a
+          line and distribute space in a box.
+        </p>
+        <p>
+          This is done by adding the rule <em class="highlight-text"><code>display: flex;</code></em>
+          to the appropriate CSS which will override the box behavior and let
+          boxes appear next to each other.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson3-5">
+      <h3 class="concept-title">Code, Test, Refine</h3>
+      <div class="concept-description line-height">
+        <p>
+          Always remember that building a webpage is an iterative process of
+          coding, testing and refining. Below are a few steps to guide you when
+          building any webpage:
+          </p>
+          <ol type="1">
+            <li>
+              <b>Look for natural boxes.</b><em> Everything on the web is a box.</em>
+            </li>
+            <li>
+              <b>Look for repeated styles and semantic elements.</b>
+              <em>Think about how you can relate everything in terms of HTML elements.</em>
+            </li>
+            <li>
+              <b>Write your HTML.</b>
+            </li>
+            <li>
+              <b>Apply styles (from Biggest to smallest elements).</b>
+              <em>That is biggest site wide elements to smallest widgets.</em>
+            </li>
+            <li>
+              <b>Fix Things (and verify).</b> <em>Fix the small things by looking at your
+              site on different browsers and resizing windows.</em>
+            </li>
+          </ol>
+      </div>
+    </div>
+  </div>
+  <div class="button">
+    <div class="arrow-left">
+      <a href="lesson2.html" title="Back to lesson2">Lesson 2</a>
+    </div>
+  </div>
+  <footer>
+    <p>Website by Claudio. A</P>
+    <!--<p>Contact me at <a href="mailto:aclaudio123@gmail.com">
+      aclaudio123@gmail.com</a></p> --> <!-- Left out to avoid Robo-mail-->
+  </footer>
+</body>
+</html>
