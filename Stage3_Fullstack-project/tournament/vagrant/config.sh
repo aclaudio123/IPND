@@ -15,3 +15,4 @@ su vagrant -c 'createdb'
 su vagrant -c 'createdb tournament'
 su vagrant -c 'psql tournament -f /vagrant/tournament/tournament.sql'
 
+
