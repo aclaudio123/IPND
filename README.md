@@ -53,8 +53,7 @@ an efficient way to layout a line and distribute space in a box
 
 ## Thanks
 <p>
-Thanks for checking out my code. I hope it inspires you.
-I use these notes to teach other beginner level students to programming.
+Thanks for checking out my code.
 
 If you've questions or would like to contact me, checkout my LinkedIn profile
 www.linkedin.com/in/claudioasangong
