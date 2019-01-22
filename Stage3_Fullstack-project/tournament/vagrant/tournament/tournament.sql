@@ -51,3 +51,5 @@ SELECT PLAYERS.id,
        (SELECT count(*) FROM MATCHES WHERE PLAYERS.id IN (winner, loser)) AS matches
 FROM PLAYERS
 GROUP BY PLAYERS.id;
+
+                                                          
