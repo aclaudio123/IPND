@@ -11,6 +11,7 @@ def connect():
     """Connect to the PostgreSQL database.  Returns a database connection."""
     return psycopg2.connect("dbname=testdb")
 
+
 def db_execute(statement, params=False):
     '''
      A helper function for statements that do not return anything
@@ -24,6 +25,7 @@ def db_execute(statement, params=False):
     db.commit()
     db.close()
 
+    
 def db_fetch_one(query, params=False):
     '''
     A helper function for queries returning one result
@@ -39,6 +41,7 @@ def db_fetch_one(query, params=False):
     result = cursor.fetchone()[0]
     db.close()
     return result
+
 
 def db_fetch_all(query, params=False):
     '''
